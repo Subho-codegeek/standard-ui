@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body data-theme="light" class="hide-completely">
@@ -68,113 +70,34 @@
             </div>
             <sm-carousel>
                 <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-            </sm-carousel>
-        </section>
-        <section class="section">
-            <div class="section__header">
-                <div class="grid">
-                    <h3>Section Heading</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <sm-menu align-options="right">
-                    <menu-option>first option</menu-option>
-                    <menu-option>second option</menu-option>
-                    <menu-option>third option</menu-option>
-                </sm-menu>
-            </div>
-            <sm-carousel>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
+                    <h3>Quiz App</h3>
+                    <div class="quiz-container" id="quiz">
+                        <div class="quiz-header">
+                            <h2 id="question">Question texts</h2>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="answer" class="answer" id="a">
+                                    <label id="a_text" for="a">Question</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="answer" class="answer" id="b">
+                                    <label id="b_text" for="b">Question</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="answer" class="answer" id="c">
+                                    <label id="c_text" for="c">Question</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="answer" class="answer" id="d">
+                                    <label id="d_text" for="d">Question</label>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <button id="submit"> Next </button>    
+                    </div>
                 </div>
             </sm-carousel>
-        </section>
-        <section class="section">
-            <div class="section__header">
-                <div class="grid">
-                    <h3>Section Heading</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <sm-menu align-options="right">
-                    <menu-option>first option</menu-option>
-                    <menu-option>second option</menu-option>
-                    <menu-option>third option</menu-option>
-                </sm-menu>
-            </div>
-            <sm-carousel>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Card</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, officia.
-                    </p>
-                </div>
-            </sm-carousel>
-        </section>
     </article>
     <script src="js/main_UI.js"></script>
     <script src="js/components.min.js"></script>
